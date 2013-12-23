@@ -34,3 +34,7 @@ $ sh web2py-heroku.sh
 
 
 Enjoy.
+
+### Examples
+
+1. [Hello, World!](http://desolate-sea-4381.herokuapp.com/)
