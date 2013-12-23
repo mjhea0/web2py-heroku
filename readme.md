@@ -1,9 +1,9 @@
 ## Steps for Running web2Py on Heroku
 
 1. Download web2py: [http://www.web2py.com/examples/static/web2py_src.zip](http://www.web2py.com/examples/static/web2py_src.zip)
-2. After you create your app, edit "db.py".
+2. After you create your app, edit "db.py":
 
-  Replace:
+  replace -
 
   ```python
   if not request.env.web2py_runtime_gae:
@@ -11,7 +11,7 @@
       db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])
   ```
 
-  with
+  with -
 
   ```python
   if not request.env.web2py_runtime_gae:
