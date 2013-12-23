@@ -18,12 +18,12 @@ Rapid web development <> Rapid web deployment.
   with -
 
 
-```python
-if not request.env.web2py_runtime_gae:
-    ## if NOT running on Google App Engine use SQLite or other DB
-    try: db = DAL(os.environ.get('DATABASE_URL'))
-    except: db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])
-```
+  ```python
+  if not request.env.web2py_runtime_gae:
+      ## if NOT running on Google App Engine use SQLite or other DB
+      try: db = DAL(os.environ.get('DATABASE_URL'))
+      except: db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])
+  ```
 
 3. Run the deploy script from main web2py directory:
 ```shell
