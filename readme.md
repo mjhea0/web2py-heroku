@@ -25,7 +25,7 @@ Rapid web development <> Rapid web deployment.
       except: db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])
   ```
 
-3. Run the deploy script from main web2py directory:
+3. Run the deploy script from the main web2py directory:
 ```shell
 $ sh web2py-heroku.sh
 ```
