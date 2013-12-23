@@ -17,7 +17,7 @@ with
 if not request.env.web2py_runtime_gae:
     ## if NOT running on Google App Engine use SQLite or other DB
     try: db = DAL(os.environ.get('DATABASE_URL'))
-    except: db = DAL('sqlite://storage.sqlite')
+    except: db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])
 ```
 
 3. Run script from main web2py directory:
