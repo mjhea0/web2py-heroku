@@ -20,12 +20,12 @@
       except: db = DAL('sqlite://storage.sqlite')
   ```
 
-3. Run script from main web2py directory:
+3. Run the deploy script from main web2py directory:
 ```shell
 $ sh web2py-heroku.sh
 ```
 
-if you need to access the admin, you will have to add a SSL certificate - https://addons.heroku.com/ssl
+> If you need to access to the admin, you will have to add a SSL certificate - https://addons.heroku.com/ssl
 
 
 Enjoy.
