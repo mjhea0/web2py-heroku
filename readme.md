@@ -1,4 +1,8 @@
-## Steps for Running web2Py on Heroku
+## Running web2Py on Heroku
+
+Rapid web development <> Rapid web deployment.
+
+### Steps
 
 1. Download web2py: [http://www.web2py.com/examples/static/web2py_src.zip](http://www.web2py.com/examples/static/web2py_src.zip)
 2. After you create your app, edit "db.py":
