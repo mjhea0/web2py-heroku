@@ -26,3 +26,6 @@ $ sh web2py-heroku.sh
 ```
 
 if you need to access the admin, you will have to add a SSL certificate - https://addons.heroku.com/ssl
+
+
+Enjoy.
